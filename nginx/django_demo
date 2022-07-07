@@ -2,6 +2,8 @@ server {
     listen 80;
     server_name 13.125.219.234;
 
+    
+
     location = /favicon.ico { access_log off; log_not_found off; }
     location /static/ {
         alias /home/ubuntu/sus_3_live/static/;
